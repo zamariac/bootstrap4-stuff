@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Bootstrap 4 tutorial </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <style>
+            .course-heading{
+                text-align: center;
+                text-transform: uppercase;
+                color: #7A43B6;
+                border: 5px solid #7A43B6;
+                margin: 50px 0;
+                padding: 10px;
+            }
+
+            h5 {
+                margin: 50px 0;
+                text-transform: uppercase;
+
+            }
+            /* bootstrap is mobile first framework */
+            /* no xs since it is the default */
+            /* 576 and up etc.. -sm- -md- -lg- -xl
+            /* @media (min-width: 576px){}
+            @media (min-width: 768px){}
+            @media (min-width: 992px){}
+            @media (min-width: 1200px){} */
+        </style>
+    
+    </head>
+    <body> 
+        <div class="container">
+                <h3 class="course-heading"> Margins</h3>
+
+                <h5> Margin on all sides</h5>
+                <div class="bg-primary m-1">.m-1 class adds (margin: 4px all around)</div>
+                <div class="bg-primary m-2">.m-2 class adds (margin: 8px all around)</div>
+                <div class="bg-primary m-3">.m-3 class adds (margin: 16px all around)</div>
+                <div class="bg-primary m-4">.m-4 class adds (margin: 24px all around)</div>
+                <div class="bg-primary m-5">.m-5 class adds (margin: 48px all around)</div>
+
+                <h5> Margin left</h5>
+                <div class="bg-primary ml-1">.ml-1 class adds (margin: 4px on left)</div>
+                <div class="bg-primary ml-2">.ml-2 class adds (margin: 8px on left)</div>
+                <div class="bg-primary ml-3">.ml-3 class adds (margin: 16px on left)</div>
+                <div class="bg-primary ml-4">.ml-4 class adds (margin: 24px on left)</div>
+                <div class="bg-primary ml-5">.ml-5 class adds (margin: 48px on left)</div>
+
+                <h5> Margin right</h5>
+                <div class="bg-primary mr-1">.mr-1 class adds (margin: 4px on right)</div>
+                <div class="bg-primary mr-2">.mr-2 class adds (margin: 8px on right)</div>
+                <div class="bg-primary mr-3">.mr-3 class adds (margin: 16px on right)</div>
+                <div class="bg-primary mr-4">.mr-4 class adds (margin: 24px on right)</div>
+                <div class="bg-primary mr-5">.mr-5 class adds (margin: 48px on right)</div>
+
+                <h5> Margin top</h5>
+                <div class="bg-primary mt-1">.mt-1 class adds (margin: 4px on top)</div>
+                <div class="bg-primary mt-2">.mt-2 class adds (margin: 8px on top)</div>
+                <div class="bg-primary mt-3">.mt-3 class adds (margin: 16px on top)</div>
+                <div class="bg-primary mt-4">.mt-4 class adds (margin: 24px on top)</div>
+                <div class="bg-primary mt-5">.mt-5 class adds (margin: 48px on top)</div>
+
+                <h5> Margin bottom</h5>
+                <div class="bg-primary mb-1">.mb-1 class adds (margin: 4px on bottom)</div>
+                <div class="bg-primary mb-2">.mb-2 class adds (margin: 8px on bottom)</div>
+                <div class="bg-primary mb-3">.mb-3 class adds (margin: 16px on bottom)</div>
+                <div class="bg-primary mb-4">.mb-4 class adds (margin: 24px on bottom)</div>
+                <div class="bg-primary mb-5">.mb-5 class adds (margin: 48px on bottom)</div>
+                <h5> Margin Auto</h5>
+                <div class="bg-primary m-auto" style="width: 200px;">.m-auto</div>
+
+                <h5> Margin Left and Right</h5>
+                <div class="bg-primary mx-5">.mx</div>
+
+                <h5> Margin Top and Bottom</h5>
+                <div class="bg-primary my-5">.my</div>
+
+                <h5 >Responsive Margin Example</h5>
+                <div class="bg-primary ml-5 ml-sm-0 ml-md-5 ml-lg-0">Screen</div>
+
+                <h3 class="course-heading">Padding</h3>
+
+                <h5>padding on all sides and so on as above</h5>
+                <div class="bg-success p-1">.p-1 (padding : 4px)</div>
+                <div class="bg-danger p-2">.p-2 (padding : 8px)</div>
+                <div class="bg-info p-3">.p-3 (padding : 16px)</div>
+                <div class="bg-primary p-4">.p-4 (padding : 24px)</div>
+                <div class="bg-warning p-5">.p-5 (padding : 48px)</div>
+
+                <h5> Padding Left and Right</h5>
+                <div class="bg-primary px-5">.px</div>
+
+                <h5> Padding Top and Bottom</h5>
+                <div class="bg-primary py-5">.py</div>
+
+                <h3 class="course-heading">Text Alignment</h3>
+                <p class="text-left">.text-left</p>
+                <p class="text-center">.text-center</p>
+                <p class="text-right">.text-right</p>
+
+                <p class="text-left">.text-left </p>
+                <p class="text-sm-right">.text-sm-right</p>
+                <p class="text-md-center">.text-md-center</p>
+                <p class="text-lg-left text-xl-right">.text-lg-left | .text-xl-right</p>
+
+                <h3 class="course-heading">Text Transforms</h3>
+                <p class="text-lowercase">.text-lowercase</p>
+                <p class="text-uppercase">.text-uppercase</p>
+                <p class="text-capitalize">.text-capitalize</p>
+
+                <h3 class="course-heading">Font weight & italics</h3>
+                <p class="font-weight-bold">.font-weight-bold</p>
+                <p class="font-weight-normal">.font-weight-normal</p>
+                <p class="font-weight-light">.font-weight-light</p>
+                <p class="font-italic">.font-italic</p>
+    
+                <h3 class="course-heading">Fancy heading text</h3>
+                <h1 class="display-1">display-1</h1>
+                <h1 class="display-2">display-2</h1>
+                <h1 class="display-3">display-3</h1>
+                <h1 class="display-4">display-4</h1>
+
+                <h3 class="course-heading">Fancy paragraph text</h3>
+                <p>The is a plain paragraph.</p>
+                <p class="lead"> This is a paragraph with a class of .lead</p>
+
+                <h3 class="course-heading">Text colors</h3>
+                <p class="text-primary">.text-primary</p>
+                <p class="text-secondary">.text-secondary</p>
+                <p class="text-success">.text-success</p>
+                <p class="text-danger">.text-danger</p>
+                <p class="text-warning">.text-warning</p>
+                <p class="text-info">.text-info</p>
+                <p class="text-light bg-dark">.text-light</p>
+                <p class="text-white bg-dark">.text-white</p>
+                <p class="text-muted">.text-muted</p>
+                <p class="text-black-50">.text-black-50</p>
+                <p class="text-white-50 bg-dark">.text-white-50</p>
+
+                <h3 class="course-heading">Background colors</h3>
+                <p class="bg-primary">.bg-primary</p>
+                <p class="bg-secondary">.bg-secondary</p>
+                <p class="bg-success">.bg-success</p>
+                <p class="bg-danger">.bg-danger</p>
+                <p class="bg-warning">.bg-warning</p>
+                <p class="bg-info">.bg-info</p>
+                <p class="bg-dark text-white">.bg-dark</p>
+
+                <h3 class="course-heading">Display Properties</h3>
+                <span class="d-block bg-primary">.d-block</span>
+                <span class="inline-block bg-success">.d-inline-block</span>
+                <span class="d-none d-sm-block d-xl-none">.d-none (not display)</span>
+                <span class="d-flex bg-warning">.d-flex</span>
+
+                <h5>Flexbox - Direction</h5>
+
+                <div class="d-flex flex-row">
+                    <div class="p-2 bg-primary">.flex-row</div>
+                    <div class="p-2 bg-success">.flex-row</div>
+                    <div class="p-2 bg-danger">.flex-row</div>
+                </div>
+
+                <hr>    
+
+                <div class="d-flex flex-column">
+                        <div class="p-2 bg-primary">.flex-column</div>
+                        <div class="p-2 bg-success">.flex-column</div>
+                        <div class="p-2 bg-danger">.flex-column</div>
+                </div>
+
+                <h5>Flexbox - Justify Content </h5>
+
+                <div class="d-flex justify-content-start border">
+                    <div class="bg-primary p-2">.justify-content-start</div>
+                </div>
+
+                <div class="d-flex justify-content-end border">
+                    <div class="bg-success p-2">.justify-content-end</div>
+                </div>
+
+                <div class="d-flex justify-content-center border">
+                    <div class="bg-warning p-2">.justify-content-center</div>
+                </div>
+
+                <div class="d-flex justify-content-between border">
+                    <div class="bg-info p-2">.justify-content-end</div>
+                    <div class="bg-danger p-2">.justify-content-end</div>
+                </div>
+
+                <div class="d-flex justify-content-around border">
+                    <div class="bg-info p-2">.justify-content-end</div>
+                    <div class="bg-danger p-2">.justify-content-end</div>
+                </div>
+
+                <h5>Flexbox - Align Items </h5>
+
+                <div class="d-flex align-items-start border" style="height: 50px">
+                    <div class="bg-primary">.align-items-start</div>
+                </div>
+
+                <div class="d-flex align-items-end border" style="height: 50px">
+                        <div class="bg-primary">.align-items-end</div>
+                </div>
+                <div class="d-flex align-items-center border" style="height: 50px">
+                        <div class="bg-primary">.align-items-center</div>
+                </div>
+               
+                
+                <h3 class="course-heading">Buttons</h3>
+
+                <button type="button" class="btn bg-primary text-white">.btn</button>
+                <!-- supports hover effect w/o additional css -->
+
+                <button type="button" class="btn btn-sm bg-primary text-white">.btn</button>
+
+                <button type="button" class="btn btn-lg bg-primary text-white">.btn</button>
+
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-secondary">Left</button>
+                    <button type="button" class="btn btn-secondary">Middle</button>
+                    <button type="button" class="btn btn-secondary">Right</button>
+                </div>
+
+                <h3 class="course-heading">Border Radius</h3>
+
+                <div class="p-5 mb-3 bg-danger rounded-top text-white">.rounded-top</div>
+
+                <div class="p-5 mb-3 bg-info rounded-bottom text-white">.rounded-bottom</div>
+
+                <div class="p-5 mb-3 bg-primary rounded-left text-white">.rounded-left</div>
+
+                <div class="p-5 mb-3 bg-warning rounded-right text-white">.rounded-right</div>
+
+                <div class="p-5 mb-3 bg-primary rounded text-white">.rounded</div>
+
+                <div class="p-5 mb-3 bg-primary rounded-circle text-white" style="width:200px; height:200px">.rounded-circle</div>
+
+                <h3 class="course-heading">Shadows</h3>
+                <div class="p-3 mb-5 shadow-sm">.shadow-sm</div>
+                <div class="p-3 mb-5 shadow">.shadow</div>
+                <div class="p-3 mb-5 shadow-lg">.shadow-lg</div>
+
+                <h3 class="course-heading">Cards</h3>
+
+                <div class="card">
+                    <img class="card-img-top" src="https://i.guim.co.uk/img/media/a561dc4f5b48bbe3736d391442a0a20d47aa6e48/20_115_3930_2358/master/3930.jpg?width=300&quality=85&auto=format&fit=max&s=a3ae74eef51693c986398493eea82157" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">heading</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, mollitia dignissimos suscipit dolorum odio necessitatibus qui temporibus fuga cumque id exercitationem numquam facilis sapiente voluptatem eos fugit illo. Veritatis, inventore.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted"> some text</small>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="card">
+                        <img class="card-img-top" src="https://i.guim.co.uk/img/media/a561dc4f5b48bbe3736d391442a0a20d47aa6e48/20_115_3930_2358/master/3930.jpg?width=300&quality=85&auto=format&fit=max&s=a3ae74eef51693c986398493eea82157" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">heading</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, mollitia dignissimos suscipit dolorum odio necessitatibus qui temporibus fuga cumque id exercitationem numquam facilis sapiente voluptatem eos fugit illo. Veritatis, inventore.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted"> some text</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-group">
+                    <div class="card">
+                        <img class="card-img-top" src="https://i.guim.co.uk/img/media/a561dc4f5b48bbe3736d391442a0a20d47aa6e48/20_115_3930_2358/master/3930.jpg?width=300&quality=85&auto=format&fit=max&s=a3ae74eef51693c986398493eea82157" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">heading</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, mollitia dignissimos suscipit dolorum odio necessitatibus qui temporibus fuga cumque id exercitationem numquam facilis sapiente voluptatem eos fugit illo. Veritatis, inventore.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted"> some text</small>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="https://i.guim.co.uk/img/media/a561dc4f5b48bbe3736d391442a0a20d47aa6e48/20_115_3930_2358/master/3930.jpg?width=300&quality=85&auto=format&fit=max&s=a3ae74eef51693c986398493eea82157" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">heading</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, mollitia dignissimos suscipit dolorum odio necessitatibus qui temporibus fuga cumque id exercitationem numquam facilis sapiente voluptatem eos fugit illo. Veritatis, inventore.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted"> some text</small>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="https://i.guim.co.uk/img/media/a561dc4f5b48bbe3736d391442a0a20d47aa6e48/20_115_3930_2358/master/3930.jpg?width=300&quality=85&auto=format&fit=max&s=a3ae74eef51693c986398493eea82157" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">heading</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, mollitia dignissimos suscipit dolorum odio necessitatibus qui temporibus fuga cumque id exercitationem numquam facilis sapiente voluptatem eos fugit illo. Veritatis, inventore.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted"> some text</small>
+                        </div>
+                    </div>
+                </div>
+
+
+                <h3 class="course-heading">Carousel</h3>
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3" ></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://i.guim.co.uk/img/media/a561dc4f5b48bbe3736d391442a0a20d47aa6e48/20_115_3930_2358/master/3930.jpg?width=300&quality=85&auto=format&fit=max&s=a3ae74eef51693c986398493eea82157" alt="" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.guim.co.uk/img/media/a561dc4f5b48bbe3736d391442a0a20d47aa6e48/20_115_3930_2358/master/3930.jpg?width=300&quality=85&auto=format&fit=max&s=a3ae74eef51693c986398493eea82157" alt="" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.guim.co.uk/img/media/a561dc4f5b48bbe3736d391442a0a20d47aa6e48/20_115_3930_2358/master/3930.jpg?width=300&quality=85&auto=format&fit=max&s=a3ae74eef51693c986398493eea82157" alt="" class="d-block w-100">
+                        </div>
+                        <a href="#carouselExampleIndicators" class="carousel-control-prev" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a href="#carouselExampleIndicators" class="carousel-control-next" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                    </div>
+                </div>
+
+                <h3 class="course-heading">Collapsible Content</h3>
+
+                <a href="#collapseExample" class="btn bg-primary" data-toggle="collapse">Link w/ href</a>
+
+                <button class="btn btn-danger" type="button" data-target="#collapseExample" data-toggle="collapse">Button w/ data-target</button> 
+
+                <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur vero quas ipsam, aspernatur soluta unde, esse, cum nobis rerum placeat blanditiis! Maiores enim ipsum numquam earum accusantium deserunt ipsam obcaecati.
+                    </div>
+                </div>
+
+                <h3 class="course-heading">Dropdown Content</h3>
+
+                    <div class="dropdown">
+                        <a href="#" class="btn btn-secondary dropdown-toggle" id="dropdownMenu" data-attribute="dropdown" data-toggle="dropdown" role="button">Dropdown</a>
+
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">something</a>
+                            <a href="#" class="dropdown-item">something two</a>
+                            <a href="#" class="dropdown-item">something three</a>
+                        </div>
+                    </div>
+
+
+                <h3 class="course-heading">Forms</h3>
+                <form action="">
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="pass">Password:</label>
+                        <input type="password" class="form-control" id="pass" placeholder="enter password">
+                    </div>
+                    <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="check">
+                            <label for="check" class="form-check-label"> Check me</label>
+                    </div>
+                    <button class="btn btn-primary">Submit</button>
+                </form>
+
+
+                <h3 class="course-heading">Jumbotron</h3>
+
+                <div class="jumbotron">
+                    <h1 class="display-4">I'm a jumbotrom</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur accusamus dolor rem atque rerum? Non temporibus adipisci iste quibusdam omnis voluptate nesciunt quisquam accusantium repellendus quae. Exercitationem unde temporibus mollitia.</p>
+                    <hr>
+                    <p>helloooo</p>
+                    <a href="#" class="btn btn-primary">learn more</a>
+                </div>
+
+                <h3 class="course-heading">Nav Component</h3>
+
+               <ul class="nav">
+                   <li class="nav-item">
+                       <a href="#" class="nav-link"> Home</a>
+                   </li>
+                   <li class="nav-item">
+                        <a href="#" class="nav-link">hello</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">what's up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"> Home</a>
+                    </li>
+               </ul>
+
+                <h3 class="course-heading">Navbar</h3>
+
+                <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                    <a href="#" class="navbar-brand">Brand</a>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a href="#" class="nav-link"> Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">hello</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">what's up</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link dropdown-toggle" id="dropdownMenus" data-attribute="dropdown" data-toggle="dropdown" role="button">Dropdown</a>
+        
+                                <div class="dropdown-menu">
+                                    <a href="#" class="dropdown-item">something</a>
+                                    <a href="#" class="dropdown-item">something two</a>
+                                    <a href="#" class="dropdown-item">something three</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <h3 class="course-heading">Grid System</h3>
+
+                <!-- Full width column -->
+
+                <div class="row mb-2">
+                    <div class="col-12 bg-primary p-2 text-white">.col-12</div>
+                </div>
+
+                <!-- 12 columns divided by 2 -->
+
+                <div class="row mb-2">
+                    <div class="col-6 bg-primary p-2 text-white">.col-6</div>
+                    <div class="col-6 bg-warning p-2 text-white">.col-6</div>
+                </div>
+
+                <!-- 12 columns divided by 3 -->
+
+                <div class="row mb-2">
+                    <div class="col-4 bg-info p-2 text-white">.col-4</div>
+                    <div class="col-4 bg-warning p-2 text-white">.col-4</div>
+                    <div class="col-4 bg-info p-2 text-white">.col-4</div>
+                </div>
+
+
+                <!-- 12 columns divided by 4 -->
+
+                <div class="row mb-2">
+                        <div class="col-3 bg-info p-2 text-white">.col-3</div>
+                        <div class="col-3 bg-danger p-2 text-white">.col-3</div>
+                        <div class="col-3 bg-info p-2 text-white">.col-3</div>
+                        <div class="col-3 bg-danger p-2 text-white">.col-3</div>
+                </div>
+
+                <!-- 12 columns divided by 6 -->
+
+                 <div class="row mb-2">
+                        <div class="col-2 bg-info p-2 text-white">.col-2</div>
+                        <div class="col-2 bg-danger p-2 text-white">.col-2</div>
+                        <div class="col-2 bg-info p-2 text-white">.col-2</div>
+                        <div class="col-2 bg-secondary p-2 text-white">.col-2</div>
+                        <div class="col-2 bg-dark p-2 text-white">.col-2</div>
+                        <div class="col-2 bg-info p-2 text-white">.col-2</div>
+                </div>   
+                
+                <!-- 12 columns divided by 12 -->
+
+                 <div class="row mb-2">
+                        <div class="col-1 bg-info p-2 text-white">.col-1</div>
+                        <div class="col-1 bg-danger p-2 text-white">.col-1</div>
+                        <div class="col-1 bg-info p-2 text-white">.col-1</div>
+                        <div class="col-1 bg-secondary p-2 text-white">.col-1</div>
+                        <div class="col-1 bg-dark p-2 text-white">.col-1</div>
+                        <div class="col-1 bg-info p-2 text-white">.col-1</div>
+                        <div class="col-1 bg-info p-2 text-white">.col-1</div>
+                        <div class="col-1 bg-danger p-2 text-white">.col-1</div>
+                        <div class="col-1 bg-info p-2 text-white">.col-1</div>
+                        <div class="col-1 bg-secondary p-2 text-white">.col-1</div>
+                        <div class="col-1 bg-dark p-2 text-white">.col-1</div>
+                        <div class="col-1 bg-info p-2 text-white">.col-1</div>
+                </div> 
+
+                <h5> mix and match columns as long as the total is equal to 12 </h5>
+
+                <div class="row mb-2">
+                    <div class="col-8 bg-primary">
+                        .col-8
+                    </div>
+                    <div class="col-4 bg-success">
+                        .col-4
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col-2 bg-info">
+                        .col-2
+                    </div>
+                    <div class="col-10 bg-danger">
+                        .col-10
+                    </div>
+                </div>
+
+                <!-- responsive -->
+
+                <div class="row mb-2">
+                    <div class="col-8 col-md-2  col-xl-11 bg-success">
+                        .col-8 .col-md-2
+                    </div>
+                    <div class="col-4 col-md-10 col-xl-1 bg-info">
+                        .col-4 .col-md-10
+                    </div>
+                </div>
+  
+
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
